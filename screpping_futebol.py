@@ -14,6 +14,11 @@ df_full = pd.read_html(str(tabela))[0].head(20)
 df = df_full[['Posição', 'PTS', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG', 'CA', 'CV', '%']]
 df.columns = ['Pos', 'PTS', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG', 'CA', 'CV', '%']
 
+js = json.dumps(tabela_brasileiro, ensure_ascii=False, indent=2)
+fp = open('tabela.json','w', encoding='utf-8')
+fp.write(js)
+fp.close()
+
 tabela_brasileiro = {}
 tabela_brasileiro['Rank_Brasileiro'] = df.to_dict('records')
 
@@ -25,11 +30,6 @@ b = Fase_de_Grupos[0:4]
 
 Fase_Preliminar = pd.read_json('tabela.json')
 c = Fase_Preliminar[4:6]
-
-js = json.dumps(tabela_brasileiro, ensure_ascii=False, indent=2)
-fp = open('tabela.json','w', encoding='utf-8')
-fp.write(js)
-fp.close()
 
 print('\n','Libertadores', a,'\n')
 print('\n','Fase_de_Grupos', b, '\n')
