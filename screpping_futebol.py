@@ -12,7 +12,7 @@ df = df_full[['Posição', 'PTS', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG', 'CA', 'C
 df.columns = ['Pos', 'PTS', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG', 'CA', 'CV', 'Porcentagem']
 
 tabela_brasileiro = {}
-tabela_brasileiro[''] = df.to_dict('records')
+tabela_brasileiro['Rank'] = df.to_dict('records')
 js = json.dumps(tabela_brasileiro, ensure_ascii=False, indent=2)
 fp = open('tabela.json','w', encoding='utf-8')
 fp.write(js)

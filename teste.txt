@@ -1,0 +1,34 @@
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send();
+}
+
+//usage:console.log(tabela);
+
+  readTextFile("tabela.json", function(data){
+      for(var a= 0;a<= data.length; a++){
+          var tabela = "<tr>";
+              tabela +="<td>"+tabela+[a].Pos+"</td>";
+              tabela +="<td>"+tabela+[a].PTS+"</td>";
+              tabela +="<td>"+tabela+[a].J+"</td>";
+              tabela +="<td>"+tabela+[a].V+"</td>";
+              tabela +="<td>"+tabela+[a].E+"</td>";
+              tabela +="<td>"+tabela+[a].D+"</td>";
+              tabela +="<td>"+tabela+[a].GP+"</td>";
+              tabela +="<td>"+tabela+[a].CG+"</td>";
+              tabela +="<td>"+tabela+[a].SG+"</td>";
+              tabela +="<td>"+tabela+[a].CA+"</td>";
+              tabela +="<td>"+tabela+[a].CV+"</td>";
+              tabela +="<td>"+tabela+[a].Porcentagem+"</td>";
+              tabela +="</tr>";
+              $('table tbody').append(tabela);
+}
+   console.log();
+});
