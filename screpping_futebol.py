@@ -1,4 +1,7 @@
-from main import*
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import json
 
 
 page = requests.get("https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a")
