@@ -6,7 +6,7 @@
 
 
 body{
-	background-color:#008080;
+	background-color:#6365d8;
 	font-family:verdana;
 	font-size:100%;
 }
@@ -14,16 +14,19 @@ body{
 
 header{
 	float: left;
-	margin-left: 5px;
+	margin-left: 10px;
 	margin-top: 20px;
 	padding: 5px;
+	background-color: aliceblue;
 	
 }
 
 .conteiner{
 	float: left;
 	margin-left: 10px;
-	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: aliceblue;
 	
 	
 

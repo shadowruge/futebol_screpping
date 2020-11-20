@@ -2,7 +2,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import json
-import legenda
 
 #get no site da CBF
 page = requests.get("https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a")
@@ -34,3 +33,9 @@ file = open('futebol_screpping/tabela.json', 'r')
 linhas = file.readlines()    
 file.close()
 
+#variavel para a terceira linha do arquivo json
+file_a = linhas[3]
+#variavel para a decima setima linha do arquivo json
+file_b = linhas[17]
+
+print('\n',file_a, file_b)

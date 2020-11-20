@@ -3,16 +3,16 @@
     {
       "Pos": "1º +1 Atlético - MG",
       "PTS": 38,
-      "J": 20,
+      "J": 21,
       "V": 12,
       "E": 2,
-      "D": 6,
+      "D": 7,
       "GP": 37,
-      "GC": 24,
-      "SG": 13,
-      "CA": 42,
+      "GC": 26,
+      "SG": 11,
+      "CA": 43,
       "CV": 2,
-      "Porcentagem": 63
+      "Porcentagem": 60
     },
     {
       "Pos": "2º -1 Internacional - RS",
@@ -127,7 +127,21 @@
       "Porcentagem": 44
     },
     {
-      "Pos": "10º  0 Sport - PE",
+      "Pos": "10º +9 Athletico Paranaense - PR",
+      "PTS": 25,
+      "J": 21,
+      "V": 7,
+      "E": 4,
+      "D": 10,
+      "GP": 18,
+      "GC": 21,
+      "SG": -3,
+      "CA": 55,
+      "CV": 1,
+      "Porcentagem": 39
+    },
+    {
+      "Pos": "11º -1 Sport - PE",
       "PTS": 25,
       "J": 21,
       "V": 7,
@@ -141,7 +155,21 @@
       "Porcentagem": 39
     },
     {
-      "Pos": "11º  0 Corinthians - SP",
+      "Pos": "12º  0 Fortaleza - CE",
+      "PTS": 25,
+      "J": 21,
+      "V": 6,
+      "E": 7,
+      "D": 8,
+      "GP": 20,
+      "GC": 19,
+      "SG": 1,
+      "CA": 48,
+      "CV": 6,
+      "Porcentagem": 39
+    },
+    {
+      "Pos": "13º -2 Corinthians - SP",
       "PTS": 25,
       "J": 21,
       "V": 6,
@@ -155,21 +183,7 @@
       "Porcentagem": 39
     },
     {
-      "Pos": "12º  0 Fortaleza - CE",
-      "PTS": 24,
-      "J": 20,
-      "V": 6,
-      "E": 6,
-      "D": 8,
-      "GP": 20,
-      "GC": 19,
-      "SG": 1,
-      "CA": 48,
-      "CV": 6,
-      "Porcentagem": 40
-    },
-    {
-      "Pos": "13º  0 Ceará - CE",
+      "Pos": "14º -1 Ceará - CE",
       "PTS": 24,
       "J": 20,
       "V": 6,
@@ -183,7 +197,7 @@
       "Porcentagem": 40
     },
     {
-      "Pos": "14º  0 Atlético - GO",
+      "Pos": "15º -1 Atlético - GO",
       "PTS": 24,
       "J": 21,
       "V": 5,
@@ -197,7 +211,21 @@
       "Porcentagem": 38
     },
     {
-      "Pos": "15º +1 Red Bull Bragantino - SP",
+      "Pos": "16º +2 Vasco da Gama - RJ",
+      "PTS": 23,
+      "J": 20,
+      "V": 6,
+      "E": 5,
+      "D": 9,
+      "GP": 22,
+      "GC": 26,
+      "SG": -4,
+      "CA": 46,
+      "CV": 5,
+      "Porcentagem": 38
+    },
+    {
+      "Pos": "17º -1 Red Bull Bragantino - SP",
       "PTS": 23,
       "J": 21,
       "V": 5,
@@ -208,34 +236,6 @@
       "SG": -3,
       "CA": 42,
       "CV": 4,
-      "Porcentagem": 36
-    },
-    {
-      "Pos": "16º +2 Vasco da Gama - RJ",
-      "PTS": 22,
-      "J": 19,
-      "V": 6,
-      "E": 4,
-      "D": 9,
-      "GP": 22,
-      "GC": 26,
-      "SG": -4,
-      "CA": 44,
-      "CV": 5,
-      "Porcentagem": 38
-    },
-    {
-      "Pos": "17º +2 Athletico Paranaense - PR",
-      "PTS": 22,
-      "J": 20,
-      "V": 6,
-      "E": 4,
-      "D": 10,
-      "GP": 16,
-      "GC": 21,
-      "SG": -5,
-      "CA": 53,
-      "CV": 1,
       "Porcentagem": 36
     },
     {
