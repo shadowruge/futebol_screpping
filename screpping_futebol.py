@@ -33,4 +33,7 @@ print('\n',df,'\n')
 file = open('futebol_screpping/tabela.json', 'r')
 linhas = file.readlines()    
 file.close()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5f978ce85ea63eb57a01761529a0df9a87772293
