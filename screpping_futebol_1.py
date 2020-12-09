@@ -32,13 +32,3 @@ print('\n',df,'\n')
 file = open('futebol_screpping/tabela.json', 'r')
 linhas = file.readlines()    
 file.close()
-
-<<<<<<< HEAD
-=======
-#variavel para a terceira linha do arquivo json
-file_a = linhas[3]
-#variavel para a decima setima linha do arquivo json
-file_b = linhas[17]
-
-print('\n',file_a, file_b)
->>>>>>> 5f978ce85ea63eb57a01761529a0df9a87772293
