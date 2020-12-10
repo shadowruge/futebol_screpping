@@ -1,7 +1,7 @@
 # futebol_screpping <br />
 - webscrepping_python <br />
 
-- ![url](https://docs.python.org/3/library/)doc python.<br />
+![site](https://docs.python.org/3/library/)<br >Doc python.<br />
 Este script foi elaborado em python3 com as bibliotecas:
 pandas, requests, beautifulsoup, json
 para obiter informações do site da CBF(Oficial).
